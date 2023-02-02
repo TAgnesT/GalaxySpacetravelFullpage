@@ -1,0 +1,74 @@
+.pricing{
+
+    width: 100%;
+    padding: 6rem 1rem;
+    background: #000;
+}
+
+.card-container{
+
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+
+.card-container .card{
+
+    margin-top: 2rem;
+    border: 1px solid #eee;
+    color: #eee;
+    text-align: center;
+    padding: 1rem;
+}
+
+.card:hover{
+
+    background: #141414;
+}
+
+.card h3{
+
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+
+.card .bar{
+
+    width: 10%;
+    border-bottom: 1px solid #eee;
+    margin: 1.5rem auto;
+    display: block;
+}
+
+.card .btc{
+
+    font-size: 4rem;
+    padding: 1rem;
+    font-weight: 600;
+}
+
+.card p{
+
+    color: #eee;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.card .btn{
+
+    width: 80%;
+    margin: 2rem auto;
+    display: block;
+}
+
+@media(max-width: 980px){
+
+    .card-container{
+
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}
